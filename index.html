@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Honeypot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+
+  <body>
+
+
+    <div class="container">
+          <div class="wow fadeInDown animated" data-wow-delay="5s" style="text-align: center">
+            <button id="buttons">Press to Skip Introduction</button>
+          </div>
+      <div class="landing"></div>
+      <div class="inner cover wow fadeInDown animated" data-wow-delay="64s" style="text-align: center">
+        <button id="buttons">Press to See Statistics</button>
+      </div>
+    </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+      $(function(){
+          $(".landing").typed({
+            strings: ["Unfortunately this is <strong>NOT</strong> a legitamate wireless network", "However, there is nothing malicious on this webpage", "I created this webpage as a PSA to tell individuals not to connect to unprotected wifi networks", "By connecting to unprotected networks you open yourself up to the following:","<li>Tracking</li> <li>Exposure of Personal Data</li> <li>Hijacking Personal Devices</li>", "But don't worry, this web application doesn't have the ability to do any of those things", "Always confirm with authority figures when connecting to a public wireless network", "<strong>CLICK BELOW</strong> to see statistics about the rate people make this same mistake"],
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+          });
+      });
+    </script>
+  </body>
+</html>

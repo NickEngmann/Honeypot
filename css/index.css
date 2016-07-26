@@ -1,0 +1,62 @@
+body {
+  padding-top: 50px;
+  background-color: #FC902A;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.landing{
+	color:white;
+	font-size: 40px;
+	text-align: vertical;
+	font-style: italic;
+}
+
+.typed-cursor{
+    opacity: 1;
+    color: #FC902A;
+    font-size: 10px;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+.background{
+	width: 600px; height: 700px; display: block; margin: auto; position: relative; 
+}
+#buttons {
+    background-color: #FC902A;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+@media  only screen and (min-width:480px) { 
+	.landing{
+	color:white;
+	font-size: 80px;
+	text-align: vertical;
+	font-style: italic;
+	}
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
